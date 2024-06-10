@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/item_layout"
+        app:cardElevation="@dimen/_4sdp"
+        app:cardCornerRadius="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/ic_logo__1_"
+                android:id="@+id/image_item"
+                android:layout_alignParentStart="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد خالد"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/text_black"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:maxLength="20"
+                android:layout_toEndOf="@+id/image_item"
+                android:textSize="@dimen/_12ssp"
+                android:id="@+id/name"
+                />
+
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/rate_bar"
+                style="@style/Widget.MaterialRatingBar.RatingBar"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_below="@+id/review"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_toEndOf="@+id/image_item"
+                android:indeterminate="false"
+                android:isIndicator="true"
+                android:rating="5"
+                android:stepSize="1"
+                app:mrb_fillBackgroundStars="true"
+                app:mrb_progressTint="#ffc400" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="محمد ذو كفاءة عالية, ملتزم بالمواعيد, نظيف فى شغله و امين"
+                android:id="@+id/review"
+                android:layout_toEndOf="@+id/image_item"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textSize="@dimen/_10ssp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-10-2"
+                android:id="@+id/date"
+                android:maxLength="15"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textSize="@dimen/_10ssp"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

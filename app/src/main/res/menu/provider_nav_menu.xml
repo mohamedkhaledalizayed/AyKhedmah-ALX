@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/profile_g">
+        <item android:title="الصفحة الشخصية"
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_man"/>
+    </group>
+
+    <group android:id="@+id/normal_user_">
+        <item android:title="مستخدم عادى"
+            android:id="@+id/normal_user"
+            android:icon="@drawable/ic_resource_switch"/>
+    </group>
+
+    <group android:id="@+id/_orders">
+        <item android:title="الاشعارات"
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_ringing"/>
+    </group>
+
+    <group android:id="@+id/_reviews">
+        <item android:title="التقييمات"
+            android:id="@+id/reviews"
+            android:icon="@drawable/ic_rating"/>
+    </group>
+
+    <group android:id="@+id/_contact">
+        <item android:title="تواصل معنا"
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_bullhorn"/>
+    </group>
+
+    <group android:id="@+id/free_trips_">
+        <item android:title="عن التطبيق"
+            android:id="@+id/about_app"
+            android:icon="@drawable/ic_info"/>
+    </group>
+
+    <group android:id="@+id/_terms">
+        <item android:title="الشروط و الاحكام"
+            android:id="@+id/terms"
+            android:icon="@drawable/ic_terms_and_conditions"/>
+    </group>
+
+    <group android:id="@+id/_shar">
+        <item android:title="مشاركة"
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"/>
+    </group>
+
+    <group android:id="@+id/_logout">
+        <item android:title="تسجيل خروج"
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+
+</menu>

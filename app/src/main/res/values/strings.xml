@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ay Khedmah</string>
+    <string name="api_key">AIzaSyBko5XHpBvCYcCPVRiBlTHndxANWqcIrLQ</string>
+
+    <string name="profile">الصفحة الشخصية</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="map">خريطة الخدمات</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="suggistion">الشكاوى و المقترحات</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="terms">الشروط و الاحكام</string>
+    <string name="share">مشاركة</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="update_available">تحديث متوفر</string>
+    <string name="new_release">يوجد إصدار جديد من التطبيق متاح الأن، يرجي التحديث لضمان الاستخدام الأمثل لخدمات التطبيق</string>
+    <string name="update">تحديث</string>
+    <string name="please_wait">من فضلك انتظر</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">دخول</string>
+    <string name="register">تسجيل دخول</string>
+    <string name="skip">تخطى</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more_info"><![CDATA[<u>عرض التقييمات</u>]]></string>
+    <string name="location"><![CDATA[<u>الموقع على الخريطة</u>]]></string>
+
+    <string-array name="area_arrays">
+        <item>Select Area</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+</resources>

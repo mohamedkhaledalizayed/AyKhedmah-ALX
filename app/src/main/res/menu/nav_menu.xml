@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/profile_g">
+        <item android:title="@string/profile"
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_man"/>
+    </group>
+
+    <group android:id="@+id/_orders">
+        <item android:title="@string/notifications"
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_ringing"/>
+    </group>
+
+<!--    <group android:id="@+id/_map">-->
+<!--        <item android:title="@string/map"-->
+<!--            android:id="@+id/map"-->
+<!--            android:icon="@drawable/ic_rating"/>-->
+<!--    </group>-->
+
+    <group android:id="@+id/_contact">
+        <item android:title="@string/contact_us"
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_bullhorn"/>
+    </group>
+
+    <group android:id="@+id/_suggistion">
+        <item android:title="@string/suggistion"
+            android:id="@+id/suggistion"
+            android:icon="@drawable/ic_contact_form"/>
+    </group>
+
+    <group android:id="@+id/free_trips_">
+        <item android:title="@string/about_app"
+            android:id="@+id/about_app"
+            android:icon="@drawable/ic_info"/>
+    </group>
+
+    <group android:id="@+id/_terms">
+        <item android:title="@string/terms"
+            android:id="@+id/terms"
+            android:icon="@drawable/ic_terms_and_conditions"/>
+    </group>
+
+    <group android:id="@+id/_share">
+        <item android:title="@string/share"
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"/>
+    </group>
+
+    <group android:id="@+id/_logout">
+        <item android:title="@string/logout"
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+
+</menu>

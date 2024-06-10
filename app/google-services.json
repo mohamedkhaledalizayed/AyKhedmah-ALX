@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649659848378",
+    "project_id": "ay-khedmah-fac1c",
+    "storage_bucket": "ay-khedmah-fac1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649659848378:android:acd3fa8744ed890d689483",
+        "android_client_info": {
+          "package_name": "com.mohamed.aykhedmah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649659848378-9bss4lu78o4rs54c00c8kfrc0bc2pmon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnFAt7OOBmjU689I7SQIsTfgdy8WmRDNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649659848378-9bss4lu78o4rs54c00c8kfrc0bc2pmon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

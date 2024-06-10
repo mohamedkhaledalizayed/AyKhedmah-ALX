@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/ic_undraw_empty_xct9"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/empty_text"
+        android:text="سيتم توفير هذه الخدمة قريبا"
+        android:textSize="@dimen/_14ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textStyle="bold"/>
+</LinearLayout>

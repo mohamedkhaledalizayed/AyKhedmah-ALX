@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mohamed.aykhedmah">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.AyKhedmah"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo__1_"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo__1_"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view.common.location.SelectLocationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.provider.signup.SignUpProviderScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.provider.profile.ProviderProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.provider.home.ProviderHomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.verification.VerificationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.signup.SignUpUserScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.editprofile.EditProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.providers.ProvidersScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.supservices.SubServicesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.providerdetails.ProviderDetailsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.user.profile.UserProfileScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.search.SearchScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.terms.TermsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.usertype.UserTypeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.rate.ReviewsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.base.BaseScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.login.LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.socialmedia.SocialScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.notification.NotificationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.dashboard.DashboardScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.contactus.ContactUsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.aboutapp.AboutAppScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.allservices.ServicesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".view.common.splash.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9418858373110249~4170888145" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_logo__1_" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+
+        <service android:name=".notification.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Ay Khedmah"
+include ':app'
+include ':nativetemplates'
+

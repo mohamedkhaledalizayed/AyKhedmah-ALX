@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:foo="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/edittext_brder_white"
+    android:gravity="center"
+    android:layout_margin="@dimen/_10sdp"
+    android:padding="@dimen/_10sdp"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/review_stars"
+        app:lottie_speed="1"
+        foo:lottie_loop="true"
+        tools:layout_editor_absoluteX="191dp" />
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:layout_width="@dimen/_150sdp"
+        android:stepSize="1"
+        android:rating="1"
+        android:indeterminate="false"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialRatingBar.RatingBar"
+        android:numStars="5"
+        android:id="@+id/rate_bar"
+        app:mrb_fillBackgroundStars="true"
+        app:mrb_progressTint="#ffc400"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/comment"
+        android:hint="رسالتك"
+        android:textSize="@dimen/_10ssp"
+        android:textAlignment="center"
+        android:padding="@dimen/_5sdp"
+        android:id="@+id/comment"/>
+
+    <Button
+        android:id="@+id/review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تقييم"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_10ssp"
+        android:background="@drawable/login_btn_bg"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_8sdp"
+        />
+
+</LinearLayout>
